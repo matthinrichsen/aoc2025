@@ -2,7 +2,7 @@ package main
 
 import "strconv"
 
-type rotFunc func(int, int) int
+type rotFunc func(int, int) result
 
 func parseLine(line []byte) (rotFunc, int) {
 	switch line[0] {
